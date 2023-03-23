@@ -62,9 +62,9 @@ struct LogInScreen: View {
 //                        && password == contentViewModel.users[i].password
                     {
                         print("Correct")
-                        viewModel.showTabBar()
                     }
                 }
+                viewModel.showTabBar()
                 print("Log in")
             } label: {
                 Text("Login")
